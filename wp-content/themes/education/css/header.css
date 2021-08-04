@@ -1,0 +1,26 @@
+.header__top {
+  background: #FBFBFB;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0; }
+  .header__top .logo__momo {
+    display: flex; }
+    .header__top .logo__momo .logo__momo__img {
+      margin-right: 5px; }
+      .header__top .logo__momo .logo__momo__img img {
+        width: 65px;
+        height: auto; }
+    .header__top .logo__momo .logo__momo__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+  .header__top .sight__impaired {
+    display: flex; }
+    .header__top .sight__impaired a {
+      display: flex; }
+
+.main-navigation .menu-menu-header-container .menu .menu-item {
+  margin-right: 10px; }
+  .main-navigation .menu-menu-header-container .menu .menu-item a {
+    display: block; }
+
+/*# sourceMappingURL=header.css.map */

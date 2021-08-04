@@ -1,0 +1,48 @@
+@import "var";
+
+.header__top{
+  background: #FBFBFB;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+
+  .logo__momo{
+    display: flex;
+
+    .logo__momo__img{
+      margin-right: 5px;
+
+      img{
+        width: 65px;
+        height: auto;
+      }
+    }
+
+    .logo__momo__text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .sight__impaired{
+    display: flex;
+
+    a{
+      display: flex;
+    }
+  }
+}
+
+.main-navigation{
+  .menu-menu-header-container{
+    .menu{
+      .menu-item{
+        margin-right: 10px;
+
+        a{
+          display: block;
+        }
+      }
+    }
+  }
+}

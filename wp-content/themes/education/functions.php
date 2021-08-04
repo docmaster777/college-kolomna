@@ -148,6 +148,14 @@ function education_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	//bootstrap
+	wp_enqueue_style( 'education-bootstrap-css', get_template_directory_uri() . '/libs/bootstrap-5.0.2-dist/css/bootstrap.min.css', array(), _S_VERSION );
+	wp_enqueue_script( 'education-bootstrap-js', get_template_directory_uri() . '/libs/bootstrap-5.0.2-dist/js/bootstrap.min.js', array(), _S_VERSION, true );
+
+	//user-css
+	wp_enqueue_style( 'education-header-css', get_template_directory_uri() . '/css/header.css', array(), _S_VERSION );
+	wp_enqueue_style( 'education-main-css', get_template_directory_uri() . '/css/main.css', array(), _S_VERSION );
 }
 add_action( 'wp_enqueue_scripts', 'education_scripts' );
 
